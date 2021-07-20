@@ -19,6 +19,8 @@ for (i=0; i < lengthOf(parts); i++) {
 		parts2 = split(parts[i], "_");
 		part2 = parts2[1];
 		newBaseName = newBaseName + "_" + part2; // AM007KD_13.55.07
+	}
+}
 	
 
 print("New name will be XXX_&newBaseName");
